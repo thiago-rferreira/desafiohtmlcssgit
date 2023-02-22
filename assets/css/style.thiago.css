@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #011826;
+    margin: 0;
+    padding: 10px;
+}
+
+#article {
+    margin: 10px;
+}
+
+#main_title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#link_title {
+    text-decoration: none;
+    color: #011826;
+}
+
+#section_aboutme {
+    border-left: 6px solid black;
+    padding-left: 20px;
+}
+
+#section_myhobbies {
+    text-align: justify;
+    border-left: 6px solid black;
+    padding-left: 20px;
+}
+
+#section_image {
+    text-align: center;
+}
+
+#p_subtitle {
+    text-align: center;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #011826;
+    height: 50px;
+}
+
+#p_footer {
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: #D9D9D9;
+    font-size: 15px;
+}

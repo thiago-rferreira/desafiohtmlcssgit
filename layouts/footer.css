@@ -1,0 +1,18 @@
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  background-color: #333;
+  color: white;
+  height: 100px;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D9D9D9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

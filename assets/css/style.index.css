@@ -1,0 +1,137 @@
+*{
+    text-align: justify;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+iframe{
+    margin-bottom: -5px;
+}
+
+.content {
+    padding: 10px 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.anav {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #fff;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2,
+.banner p {
+    color: #333;
+    text-align: center;
+}
+
+
+.ArticleWithBorder {
+    margin-bottom: 50px;
+    border-left: 6px solid black;
+    border-radius: 7px;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0,0,0,0.7); 
+    box-shadow: 9px 9px 26px 1px rgba(0,0,0,0.7);
+    padding: 15px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+article a {
+    color: #333;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.article1{
+    display: flex;
+    padding: 20px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+.articleLadoaLado{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.sectionImg{
+    text-align: center;
+}

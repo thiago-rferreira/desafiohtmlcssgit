@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D9d9d9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #D9D9D9;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+label {
+  padding: 5;
+}
+
+/* estilo para o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006D9C;
+
+}
+
+#iframefooter {
+  position: fixed;
+  bottom: 0px;
+}

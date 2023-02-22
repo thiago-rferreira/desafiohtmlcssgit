@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.anav {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #fff;
+}
+
+li {
+    margin-right: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.logo {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+
+.logo:hover {
+    background-color: #33333300;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

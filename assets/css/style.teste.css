@@ -1,0 +1,31 @@
+.sectionparent {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.sectionchild {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.divparent {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.divchild {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    width: 30%;
+}
+
+.divchild2 {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
