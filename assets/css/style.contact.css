@@ -1,14 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
-  background-color: #D9d9d9;
+  background-color:#000000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #D9D9D9;
 }
 
 h1 {
@@ -43,7 +43,7 @@ textarea {
 
 button {
   padding: 10px;
-  background-color: #008CBA;
+  background-color: #F2911B;
   color: white;
   border: none;
   border-radius: 5px;
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-  background-color: #006D9C;
+  background-color: #ce7100;
 
 }
 
