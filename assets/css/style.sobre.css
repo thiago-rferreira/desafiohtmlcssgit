@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #D9D9D9;
+    background-color: #f5ebdc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 iframe{
@@ -46,7 +46,7 @@ article {
 
 footer {
     text-align: center;
-    background-color: #011826;
+    background-color:#f5ebdc;
     align-items: center;
     padding: 10px;
 }
@@ -66,16 +66,29 @@ a {
 }
 
 #aboutus {
-    border-left: 6px solid black;
-    padding-left: 20px;
-    border-radius: 5px;
+
+    margin-bottom: 50px;
+    border-left: 6px solid #F2911B;
+    border-radius: 7px;
+    margin: 10px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.401);
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin-top: 40px;
 }
 
 #who {
-    text-align: justify;
-    border-left: 6px solid black;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-left: 6px solid #F2911B;
+    border-radius: 7px;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.401);
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
+    padding: 15px;
 }
 
 #teamphoto {
@@ -100,4 +113,19 @@ a {
 #pfooter2 {
     margin-right: 20px;
     margin-bottom: 0px;
+}
+
+.twoPeople{
+    display: flex;
+    background-color: aqua;
+}
+
+.articleLadoaLado{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.sectionImg{
+    text-align: center;
 }

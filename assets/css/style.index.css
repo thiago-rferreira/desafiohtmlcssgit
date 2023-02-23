@@ -6,8 +6,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    color: #fff;
+    background-color: #f5ebdc;
+    color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -85,13 +85,13 @@ li {
 
 .ArticleWithBorder {
     margin-bottom: 50px;
-    border-left: 6px solid rgb(255, 255, 255);
+    border-left: 6px solid #F2911B;
     border-radius: 7px;
     margin: 20px;
     margin-bottom: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
-    -webkit-box-shadow: 9px 9px 26px 1px rgba(255, 255, 255, 0.7); 
-    box-shadow: 9px 9px 26px 1px rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.401);
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     padding: 15px;
 }
 
