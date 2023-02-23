@@ -4,10 +4,12 @@ body {
     background-color: #f5ebdc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-iframe{
+
+iframe {
     margin-bottom: -5px;
-    
+
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@ nav {
 
 a:hover {
     background-color: #111;
-  }
+}
 
 ul {
     list-style-type: none;
@@ -46,14 +48,14 @@ article {
 
 footer {
     text-align: center;
-    background-color:#f5ebdc;
+    background-color: #f5ebdc;
     align-items: center;
     padding: 10px;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 p {
@@ -73,7 +75,7 @@ a {
     margin: 10px;
     margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.401);
-    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     padding: 15px;
     margin-top: 40px;
@@ -86,7 +88,7 @@ a {
     margin: 20px;
     margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.401);
-    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     padding: 15px;
 }
@@ -115,17 +117,35 @@ a {
     margin-bottom: 0px;
 }
 
-.twoPeople{
+.twoPeople {
     display: flex;
     background-color: aqua;
 }
 
-.articleLadoaLado{
+.articleLadoaLado {
     display: flex;
     justify-content: center;
     text-align: justify;
 }
 
-.sectionImg{
+.sectionImg {
     text-align: center;
+}
+
+.ArticleWithBorder {
+    width: 33%;
+    background-color: rgba(239, 236, 236, 0.475);
+    -webkit-box-shadow: 8px 13px 26px -11px rgba(0, 0, 0, 0.76);
+    box-shadow: 8px 13px 26px -11px rgba(0, 0, 0, 0.76);
+    border-radius: 20px;
+    border-top: 6px solid #F2911B;
+}
+h2{
+    text-align: center;
+}
+
+#p_title{
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
 }
