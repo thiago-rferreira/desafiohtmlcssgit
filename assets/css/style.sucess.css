@@ -68,7 +68,7 @@ button:hover {
     margin: auto;
     vertical-align: middle;
     height: auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .home-button {
@@ -81,9 +81,8 @@ button:hover {
     font-weight: bold;
     transition: background-color 0.3s ease;
     margin-top: 20px;
-  }
-  
-  .home-button:hover {
+}
+
+.home-button:hover {
     background-color: #ce7100;
-  }
-  
+}
