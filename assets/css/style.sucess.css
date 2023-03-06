@@ -1,7 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
 * {
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
+    font-family: 'Harry Potter', sans-serif;
 }
 
 body {
@@ -61,6 +64,8 @@ button:hover {
 #iframefooter {
     position: fixed;
     bottom: 0px;
+    margin-bottom: -5px;
+
 }
 
 #div_img {

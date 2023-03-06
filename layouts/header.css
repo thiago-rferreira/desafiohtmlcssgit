@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Harry Potter', sans-serif;
 }
 
 header {

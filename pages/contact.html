@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Angry Burger</title>
-    <link rel="stylesheet" href="../assets/css/style.contact.css">
-  </head>
-  <body>
-    <iframe src="./../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
-    <h1>Entre em contato</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Angry Burger</title>
+  <link rel="stylesheet" href="../assets/css/style.contact.css">
+</head>
+
+<body>
+  <iframe src="./../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+  <div id="container">
+    <h1>Deixe um comentário</h1>
     <form action="../pages/sucess.html">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
@@ -15,12 +18,13 @@
       <label for="email">E-mail:</label>
       <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
 
-      <label for="mensagem">Mensagem:</label>
+      <label for="mensagem">Comentário:</label>
       <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
 
       <button type="submit">Enviar</button>
     </form>
+  </div>
+  <iframe id="iframefooter" src="./../layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
+</body>
 
-    <iframe id="iframefooter" src="./../layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
-  </body>
 </html>

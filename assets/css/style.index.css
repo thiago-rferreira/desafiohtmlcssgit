@@ -1,9 +1,12 @@
-*{
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+* {
     text-align: justify;
 }
 
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Harry Potter', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5ebdc;
@@ -15,13 +18,14 @@ h1 {
     font-size: 50px;
 }
 
-iframe{
+iframe {
     margin-bottom: -5px;
 }
 
 .content {
     padding: 10px 0;
 }
+
 .container {
     margin: 0 auto;
     padding: 0 20px;
@@ -90,9 +94,10 @@ li {
     margin: 20px;
     margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.401);
-    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7); 
+    -webkit-box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     box-shadow: 9px 9px 26px 1px rgba(0, 0, 0, 0.7);
     padding: 15px;
+    width: auto;
 }
 
 article h2 {
@@ -118,21 +123,57 @@ footer {
     text-align: center;
 }
 
-.article1{
+.article1 {
     display: flex;
     padding: 20px;
 }
 
-.p1{
-    padding: 10px;
+.p1 {
+    padding-left: 10px;
+    padding-top: 0px;
 }
 
-.articleLadoaLado{
+.articleLadoaLado {
     display: flex;
     justify-content: center;
     text-align: justify;
+    margin: auto;
 }
 
-.sectionImg{
+.sectionImg {
     text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.profile {
+    border-radius: 100%;
+
+}
+
+.profile_name {
+    text-align: center;
+    font-size: 40px;
+}
+
+.coment h3 {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.coment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.coment h2 {
+    margin: 0;
 }
